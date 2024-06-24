@@ -1,7 +1,7 @@
-//your JS code here. If required.
-fucntion AccioJob(){
-	alert("AccioJob");
+function functionName() {
+    alert(arguments.callee.name);
 }
-fucntion functionName(){
-	alert("functionName")
+
+fucntion AccioJob(){
+	alert(argument.callee.name);
 }
